@@ -8,10 +8,6 @@ The sample Dataset summarizes the usage behavior of about 9000 active credit car
 ### Algorithms used :  
 In this dataset I've used five clustering algorithm to perform segmentation.These algorithms are given below.
 - [K-Means Clustering](https://en.wikipedia.org/wiki/K-means_clustering)
-- [Agglomerative Clustering](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.AgglomerativeClustering.html)
-- [Spectral Clustering](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.SpectralClustering.html)
-- [DBSCAN Clustering](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html)
-- [GaussianMixture Model based clustering](https://en.wikipedia.org/wiki/Mixture_model)
 ### Final Model  :
 I have created a Streamlit Application based on this clustering technique, where we are taking the customer details & identifying which cluster the custoemr belongs to.
 To use the application visit website "https://cvproject-innd.onrender.com/"
